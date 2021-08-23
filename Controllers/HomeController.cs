@@ -13,7 +13,7 @@ namespace FirstRadio.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        public string basePath = @"C:\Users\koste\Desktop\Music";
+        public string basePath = @"C:\Users\Ваня\Desktop\Music";
 
 
         public HomeController(ILogger<HomeController> logger)

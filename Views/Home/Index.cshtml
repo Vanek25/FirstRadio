@@ -5,7 +5,10 @@
 
 <div class="text-center">
     <h1 class="display-4">Музыка из папки</h1>
-    <audio id="audio" src="~/Music/Lida_GSPD_-_Evrobit_72720089.mp3" controls></audio>
+    <p> 
+        Эта штука из ресурсов
+        <audio id="audio" src="~/Music/Lida_GSPD_-_Evrobit_72720089.mp3" controls></audio>
+    </p>
     
     
     <script>
@@ -30,10 +33,10 @@
     </script>
     @foreach (var file in Model)
     {
-<p>
-    @file
-    <!--<button onclick="playMusic('@file'); return false;">Play</button>-->
-    <audio id="audio" src="'Home/GetAudio?filename=' + @file" controls></audio>
-</p>
+        <p>
+            @file
+            <button onclick="playMusic('@file'); return false;">Play</button>
+            <audio id="audio" src="'Home/GetAudio?filename=' + @file" controls></audio>
+        </p>
     }
 </div>

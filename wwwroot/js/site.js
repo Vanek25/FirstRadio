@@ -1,4 +1,5 @@
-﻿let audio = document.getElementById("audio");    // Берём элемент audio
+﻿////////////////////ЭТА ШТУКА НЕ РАБОТАЕТ!!!!!!!!!!!!!!!!!!!!!ХЗ ПОЧЕМУ///////////////////////
+let audio = document.getElementById("audio");    // Берём элемент audio
 let time = document.querySelector(".time");      // Берём аудио дорожку
 let btnPlay = document.querySelector(".play");   // Берём кнопку проигрывания
 let btnPause = document.querySelector(".pause"); // Берём кнопку паузы
